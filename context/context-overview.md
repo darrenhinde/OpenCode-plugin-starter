@@ -12,6 +12,7 @@ Foundational concepts of how plugins are registered and executed.
 ### 🛠️ Capabilities
 Deep dives into specific plugin features.
 - [Events](./capabilities/events.md): Detailed list of all 25+ hookable events.
+- [Events: Skills Plugin](./capabilities/events_skills.md): Practical example of event hooks in the Skills Plugin.
 - [Tools](./capabilities/tools.md): How to build and register custom tools using Zod.
 - [Agents](./capabilities/agents.md): Creating and configuring custom AI agents.
 
