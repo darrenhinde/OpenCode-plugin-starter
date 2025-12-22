@@ -7,6 +7,9 @@ This repository is a comprehensive starter kit and demonstration of OpenCode's e
 - `my-little-ui/`: A fully functional, modular OpenCode plugin.
   - Custom tools, agents, lifecycle hooks, and tool interception.
 - `context/`: A library of Markdown files designed to provide LLMs with the knowledge needed to build OpenCode plugins.
+- `.opencode/`: OpenCode configuration and custom agents for this repository.
+  - `opencode.json`: Project-level configuration.
+  - `agent/codebase-agent.md`: A specialized agent for building and maintaining this plugin, pre-configured with access to the `context/` library.
 - `config.json`: Example OpenCode configuration for local plugin development.
 - `package.json`: Root configuration referencing the local plugin.
 
