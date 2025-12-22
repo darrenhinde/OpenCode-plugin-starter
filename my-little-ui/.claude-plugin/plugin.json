@@ -1,0 +1,8 @@
+{
+  "name": "my-little-ui",
+  "description": "A demonstration OpenCode plugin showcasing core plugin capabilities",
+  "version": "1.0.0",
+  "author": {
+    "name": "Darren Hinde"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "opencode-plugin-starter-root",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.0.187",
+    "my-little-ui": "file:./my-little-ui"
+  },
+  "scripts": {
+    "build:plugin": "cd my-little-ui && bun install && bun run build",
+    "dev:plugin": "cd my-little-ui && bun run dev"
+  }
+}
