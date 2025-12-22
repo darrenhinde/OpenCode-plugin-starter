@@ -1,0 +1,13 @@
+{
+  "name": "@opencode/skills-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.0.189",
+    "gray-matter": "^4.0.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

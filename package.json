@@ -4,10 +4,13 @@
   "type": "module",
   "dependencies": {
     "@opencode-ai/plugin": "^1.0.187",
-    "my-little-ui": "file:./my-little-ui"
+    "my-little-ui": "file:./my-little-ui",
+    "@opencode/skills-plugin": "file:./skills-plugin"
   },
   "scripts": {
     "build:plugin": "cd my-little-ui && bun install && bun run build",
-    "dev:plugin": "cd my-little-ui && bun run dev"
+    "build:skills": "cd skills-plugin && bun install && bun run build",
+    "dev:plugin": "cd my-little-ui && bun run dev",
+    "dev:skills": "cd skills-plugin && bun run dev"
   }
 }
