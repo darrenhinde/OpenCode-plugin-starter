@@ -590,7 +590,7 @@ const beforeHook = async (input, output) => {
 - **OpenCode Events**: `context/capabilities/events.md`
 - **Tool Definition**: `context/capabilities/tools.md`
 - **Best Practices**: `context/reference/best-practices.md`
-- **Skills Plugin**: `skills-plugin/index.ts`
+- **Skills Plugin Example**: `skills-plugin/example.ts`
 - **Hook Lifecycle**: `skills-plugin/hook-lifecycle-and-patterns.md`
 - **Implementation Pattern**: `skills-plugin/implementation-pattern.md`
 

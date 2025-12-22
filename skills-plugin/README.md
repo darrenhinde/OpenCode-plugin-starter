@@ -17,7 +17,7 @@ This folder shows how to:
 
 ```
 skills-plugin/
-├── index.ts (315 lines)
+├── example.ts (315 lines)
 │   ├── Skill interface definition
 │   ├── Validation schema (Zod)
 │   ├── Tool name generation
@@ -27,7 +27,9 @@ skills-plugin/
 │   ├── tool.execute.before hook
 │   ├── tool.execute.after hook
 │   └── Plugin return object
-└── README.md (this file)
+├── README.md (this file)
+├── hook-lifecycle-and-patterns.md
+└── implementation-pattern.md
 ```
 
 ## Key Features
@@ -185,7 +187,7 @@ const afterHook = async (input, output) => {
 ## How to Use This Example
 
 ### 1. Understand the Implementation
-- Read `index.ts` - See how skills are implemented
+- Read `example.ts` - See how skills are implemented
 - Review comments - Understand each section
 - Study the hooks - See how they work together
 
@@ -247,7 +249,7 @@ const afterHook = async (input, output) => {
 5. Create skills plugin package
 
 ### Learning Path
-1. Study `index.ts` - Understand the code
+1. Study `example.ts` - Understand the code
 2. Read `implementation-pattern.md` - Understand the pattern
 3. Review `hook-lifecycle-and-patterns.md` - Learn best practices
 4. Study `my-little-ui/src/hooks/` - See working reference
