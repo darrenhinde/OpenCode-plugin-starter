@@ -1,6 +1,6 @@
 # OpenCode Plugin Starter & Demo
- Tutorial Video:
-https://youtu.be/Wu3G1QwM81M
+
+[![Tutorial Video](https://img.youtube.com/vi/Wu3G1QwM81M/0.jpg)](https://youtu.be/Wu3G1QwM81M)
 
 This repository is a comprehensive starter kit and demonstration of OpenCode's extensibility. It includes a modular demo plugin and a structured library of context files for AI-assisted development.
 
